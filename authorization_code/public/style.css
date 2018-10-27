@@ -1,0 +1,43 @@
+
+#login, #loggedin {
+    display: none;
+}
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
+
+body{
+    width: 100%;
+    display: block;
+    background-color: rgba(197, 214, 191, 0.356);
+}
+
+
+#login{
+    width: 20%;
+    display: block;
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    margin-top: 20%;
+}
+
+.loginbtn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
