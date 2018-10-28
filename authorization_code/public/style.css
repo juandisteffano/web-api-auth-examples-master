@@ -10,34 +10,63 @@
 }
 
 body{
-    width: 100%;
+    width: auto;
     display: block;
     background-color: rgba(197, 214, 191, 0.356);
+    overflow: auto;
 }
 
-
-#login{
-    width: 20%;
+.container{
     display: block;
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
+	margin: auto;
+	width: 50%;
     overflow: auto;
-    margin-top: 20%;
+}
+#login{
+    width: 80%;
+    display: block;
+    overflow: auto;
 }
 
 .loginbtn{
+    width: 50%;
+    display: block;
     background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    border-radius: 5%;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 9999em;
+    margin: 5% auto;
+    float:none;
+    clear: both;
+}
 
+.info{
+    width: 100%;
+    display: block;
+    float: none;
+    overflow: auto;
+}
+.logo{
+    width: 30%;
+    margin-bottom: 5%;
+    margin: 5% auto;
+    float:left;
+    overflow: auto;
+}
+
+h1 {
+    margin-bottom: 10%;
+    margin: 5% auto;
+    float:right;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 10% 0;
 }
